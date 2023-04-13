@@ -1,0 +1,206 @@
+/* HEX CODES
+
+
+Red - #FC3435
+Yellow - #FEBD02
+Yellow 2 - #FFC300
+
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    background-color: rgba(254, 189, 2, 0.145);
+}
+
+
+/* WELCOME SECTION */
+
+
+.wcontainer {
+    background: url(https://cdn.discordapp.com/attachments/984739658988683265/1095732442888933456/12917101534_02016e2a5b_h.png);
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 9%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    z-index: 2;
+    background: linear-gradient(to right,rgba(252, 52, 53, 0.8),rgba(254, 189, 2, 0.8));
+    box-shadow: 0 0 1.25em rgba(0,0,0,0.5);
+}
+
+
+.navbar {
+    width: 100%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+
+.fb {
+    height: 6.375em;
+    margin-left: 4.625em;
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
+}
+
+
+.ig {
+    height: 3em;
+    margin-left: 0.6875em;
+    margin-top: 0.3em;
+}
+
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 5em;
+    margin-left: 0.7em;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+
+nav ul li a, nav ul li a:after, nav ul li a:before {
+    transition: .2s;
+}
+
+
+nav ul li a:hover {
+    font-size: 1.4em;
+}
+
+
+.navfill {
+    width: 100%;
+    height: 12%;
+}
+
+
+/* ABOUT SECTION */
+
+
+#findout {
+    width: 100%;
+    padding-top: 4.375em
+}
+
+
+.title {
+    font-family: 'League Spartan', sans-serif;
+    color: #1b1b1b;
+    margin-left: 4em;
+}
+
+
+.title h1 {
+    font-weight: 700;
+    font-size: 3.5em;
+    margin-top: 0.3em;
+    margin-bottom: 1.3em;
+    color: #FFC300;
+}
+
+
+table.GeneratedTable {
+    width: 73%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+  }
+ 
+  table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    padding: 3px;
+  }
+ 
+  table.GeneratedTable thead {
+    background-color: #ffcc00;
+  }
+
+
+  #rooms {
+      width: 40%;
+  }
+
+
+  #labels {
+      width: 15.25%;
+  }
+
+
+  #outputs {
+      width: 21.25%;
+  }
+
+
+  .roomnames {
+      text-align: center;
+      border-right: 1px solid white;
+      font-size: 1.2rem;
+      padding: 0px;
+  }
+
+
+  table.GeneratedTable td {
+      padding: 0.5rem;
+  }
+
+
+  .calculate {
+      height: 1.3rem;
+      width: 5rem;
+      margin-left: 5px;
+  }
+
+
+  #totalSales {
+      text-align: center;
+      padding: 1rem;
+  }
+
+
+  .inputd {
+      height: 1.5rem;
+      width: 8rem;
+  }
+
+
+
