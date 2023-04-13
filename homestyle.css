@@ -31,7 +31,7 @@ body {
 .fb {
     height: 6.375em;
     margin-left: 4.625em;
-    margin-top: 0.625em;
+    margin-top: 1.625em;
     margin-bottom: 0.625em;
 }
 
@@ -118,7 +118,7 @@ nav ul li a:hover {
     margin-top: 1.875em;
     border: 2px solid #fff;
     border-radius: 1.5625em;
-    margin-left: -3rem;
+    margin-left: 0rem;
 }
 
 .buttons ul li a {
