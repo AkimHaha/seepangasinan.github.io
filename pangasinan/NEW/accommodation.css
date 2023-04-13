@@ -1,0 +1,292 @@
+/* HEX CODES
+
+
+Red - #FC3435
+Yellow - #FEBD02
+Yellow 2 - #FFC300
+
+
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+
+
+/* WELCOME SECTION */
+
+
+body {
+  background-color: rgba(254, 189, 2, 0.145);
+}
+
+
+.wcontainer {
+  background: url(https://cdn.discordapp.com/attachments/984739658988683265/1052215641802809405/13496791220YhejRuK.png);
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+}
+
+
+.navbar {
+  width: 100%;
+  height: 9%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: 2;
+  background: linear-gradient(to right,rgba(252, 52, 53, 0.8),rgba(254, 189, 2, 0.8));
+  box-shadow: 0 0 1.25em rgba(0,0,0,0.5);
+}
+
+
+.navbar {
+  width: 100%;
+  height: 9%;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+
+.fb {
+  height: 2.375em;
+  margin-left: 5.625em;
+  margin-top: 0.625em;
+  margin-bottom: 0.625em;
+}
+
+
+.ig {
+  height: 3em;
+  margin-left: 0.6875em;
+  margin-top: 0.3em;
+}
+
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 5em;
+  margin-left: 0.7em;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+
+nav ul li a, nav ul li a:after, nav ul li a:before {
+  transition: .2s;
+}
+
+
+nav ul li a:hover {
+  font-size: 1.4em;
+}
+
+
+.navfill {
+  width: 100%;
+  height: 12%;
+}
+
+
+/* BOOKING SECTION */
+
+
+.booknow {
+  height: 4.5rem;
+  width: 10rem;
+  background-color: orange;
+  position: absolute;
+  top: 20.5rem;
+  left: 37.5rem;
+  font-weight: bolder;
+  color: white;
+  border-radius: 50px;
+  letter-spacing: 2px;
+  font-size: large;
+  border: none;
+  box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+
+.booknow a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* ACCOMMODATION SECTION */
+
+
+#accom {
+  width: 100%;
+  padding: 7.375em 0;
+}
+
+
+.title {
+  font-family: 'League Spartan', sans-serif;
+  color: #1b1b1b;
+  margin-left: 4em;
+}
+
+
+.title h1 {
+  font-weight: 700;
+  font-size: 3.5em;
+  margin-top: 0.3em;
+  margin-bottom: 1.3em;
+  color: #FFC300;
+}
+
+
+.rooms {
+display:flex;
+}
+
+
+.info {
+height: 619px;
+width: 520px;
+margin: auto;
+}
+
+
+.rtitle {
+border-bottom: 3px solid black;
+margin-bottom: 16px;
+padding-bottom: 16px;
+width: 630px;
+}
+
+
+.rtitle h2 {
+font-size: 32px;
+}
+
+
+.labels ul li {
+list-style-type: none;
+display: inline-block;
+padding-right: 13px;
+margin-bottom: 15px;
+}
+
+
+.labels ul li:first-child {
+border-right: 1px solid gray;
+margin-right: 13px;
+}
+
+
+.labels ul li span {
+border-radius: 50px;
+padding: 6px 12px;
+font-weight: 500;
+color: white;
+background-color: orange;
+}
+
+
+.wrapper {
+height: 619px;
+width: fit-content;
+margin-left: 4em;
+}
+
+
+.wrapper .listings {
+width: 18em;
+cursor: pointer;
+}
+
+
+.wrapper .listings li a {
+margin-top: 15px;
+display: block;
+padding-bottom: 15px;
+border: none;
+border-radius: 0;
+font-size: 1.1em;
+font-weight: 300;
+color: #333;
+}
+
+
+.wrapper .listings li {
+border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+list-style: none;
+}
+
+.rtab {
+margin-top: 20px;
+width: 950px;
+height: 260px;
+display: flex;
+}
+
+
+.tabimg {
+height: 230px;
+width: 100%;
+}
+
+
+.tabinfo {
+width: 30%;
+}
+
+
+.tabinfo h1 {
+margin-left: 2rem;
+font-size: 35px;
+margin-bottom: 2rem;
+}
+
+
+.tabinfo ul {
+margin-left: 3rem;
+}
+
+
+.listings li a {
+text-decoration: none;
+}
+
+
+.tabinfo ul li {
+padding-bottom: 1rem;
+margin-bottom: 1rem;
+border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+}
+
+.graphs {
+  margin-top: 5rem;
+  display: flex;
+  margin-left: 10rem;
+  margin-right: auto;
+}
+
+.graphs img {
+  width: 1000px;
+}

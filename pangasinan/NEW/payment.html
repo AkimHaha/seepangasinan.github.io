@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="payment.css">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@400;500;700&family=Inconsolata&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Satisfy&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+
+    <form action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">billing address</h3>
+
+                <div class="inputBox">
+                    <span>First name :</span>
+                    <input type="text" required>
+                </div>
+                <div class="inputBox">
+                    <span>Middle Name :</span>
+                    <input type="text" required>
+                </div>
+                <div class="inputBox">
+                    <span>Last Name :</span>
+                    <input type="text" required>
+                </div>
+                <div class="inputBox">
+                    <span>Email :</span>
+                    <input type="email" required>
+                </div>
+
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">payment</h3>
+
+                <div class="inputBox">
+                    <span>cards accepted :</span>
+                    <img src="card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>name on card :</span>
+                    <input type="text" required>
+                </div>
+                <div class="inputBox">
+                    <span>credit card number :</span>
+                    <input type="Text" required maxlength="12">
+                </div>
+                <div class="inputBox">
+                    <span>expiry month :</span>
+                    <input type="number" required min="1" max="12">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>expiry year :</span>
+                        <input type="number" required min="2023" max="2030">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" required maxlength="4">
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <a href="accommodation.html"><input type="submit" value="proceed to checkout" class="submit-btn"></a>
+
+    </form>
+
+</div>    
+    
+</body>
+</html>

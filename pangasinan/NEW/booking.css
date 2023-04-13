@@ -1,0 +1,367 @@
+/* HEX CODES
+
+
+Red - #FC3435
+Yellow - #FEBD02
+Yellow 2 - #FFC300
+
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+/* WELCOME SECTION */
+
+
+body {
+    background-color: rgba(254, 189, 2, 0.145);
+}
+
+
+.navbar {
+    width: 100%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    background: linear-gradient(to right,rgba(252, 52, 53, 0.8),rgba(254, 189, 2, 0.8));
+    box-shadow: 0 0 1.25em rgba(0,0,0,0.5);
+    margin-bottom: 2rem;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+
+.fb {
+    height: 2.375em;
+    margin-left: 5.625em;
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
+}
+
+
+.ig {
+    height: 3em;
+    margin-left: 0.6875em;
+    margin-top: 0.3em;
+}
+
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 5em;
+    margin-left: 0.7em;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+
+nav ul li a, nav ul li a:after, nav ul li a:before {
+    transition: .2s;
+}
+
+
+nav ul li a:hover {
+    font-size: 1.4em;
+}
+
+
+/* BOOKING */
+
+
+.bnav {
+    background-color: lightyellow;
+    height: 8rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+.bprog {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.bprog h4 {
+    font-size: x-large;
+}
+
+
+#dcout {
+    width: 100px;
+}
+
+
+.thetile h2 {
+    color: #FC3435;
+    font-size: 1.8em;
+    margin-left: 4.2rem;
+}
+
+
+/* ROOMS */
+
+
+.roomsummary {
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.roomsholder {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 15rem;
+    width: 50rem;
+    margin-bottom: 1rem;
+}
+
+
+.roomi {
+    position: relative;
+    height: 15rem;
+    width: 16rem;
+}
+
+
+.roompic {
+    width: 100%;
+    height: 9.8rem;
+}
+
+
+.roominfo {
+    width: 100%;
+    height: 5.2rem;
+    background-color: #FEBD02;
+    padding: 20px 15px 15px 25px;
+}
+
+
+.booksummary {
+    background-color: #FC3435;
+    height: 47rem;
+    width: 20rem;
+    margin-left: 6rem;
+}
+
+
+#bookSum {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+}
+
+
+.btnr {
+    position: absolute;
+    background-color: black;
+    z-index: 3;
+    top: 0;
+    height: 15rem;
+    width: 16rem;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.booked {
+    height: fit-content;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.booked h2 {
+    color: white;
+    display: none;
+    font-weight: 500;
+    margin-left: 1rem;
+    margin-bottom: 10px;
+}
+
+
+.summary {
+    position: relative;
+    display: none;
+    background-color: #FEBD02;
+    height: 10rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.bookedLabel {
+    position: absolute;
+    margin-top: 0.8rem;
+    margin-left: 0.6rem;
+}
+
+
+#charge {
+    position: relative;
+    display: none;
+    background-color: #999999;
+    width: 90%;
+    height: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+
+#total {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 11px;
+    font-size: 1.25rem;
+}
+
+
+#chargeLabel {
+    color: white;
+    position: absolute;
+    bottom: 9px;
+    left: 11px;
+    font-size: 1.25rem;
+}
+
+
+.calculateNights {
+    margin-left: 1rem;
+}
+
+
+.closeSummary {
+    position: absolute;
+    cursor: pointer;
+    top: 0.5rem;
+    right: 0.6rem;
+    color: white;
+    background-color: red;
+    padding: 4px 7px;
+    border-radius: 50px;
+}
+
+
+.roomname {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+
+.roomprice {
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+/* CONTINUE BUTTON */
+
+
+.contContainer {
+    position: relative;
+    display: none;
+    background-color: #27ae60;;
+    height: 2.5rem;
+    width: 90%;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#cont1, #cont2, #cont3, #cont4, #cont5, #cont6, #cont7, #cont8, #cont9  {
+    position: absolute;
+    font-size: 1.3rem;
+    top: 0.68rem;
+    left: 6.2rem;
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+
+
+#ttlNights {
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 3rem;
+    text-align: center;
+}
+
+
+#calculate {
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+
+#checkin, #checkout {
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+.dateInfo {
+    position: relative;
+    width: 90%;
+    height: 8rem;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FEBD02;
+    padding: 15px 10px 10px 20px;
+    line-height: 20px;
+}
+
+
+#calculate {
+    position: absolute;
+    left: 7.5rem;
+    bottom: 1rem;
+}
