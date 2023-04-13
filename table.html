@@ -1,0 +1,200 @@
+<head>
+    <title>SeePangasinan - Sales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@400;500;700&family=Inconsolata&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" type="text/css" href="tablestyle.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+
+
+    <body>
+
+
+        <section>
+            <div class="wcontainer">
+                <div class="navbar">
+                    <a href="index.html"><img src="SEE PANGASINAN LOGO.png" class="fb logs"></a>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="discover.html">DISCOVER</a></li>
+                            <li><a href="travel.html">TRAVEL</a></li>
+                            <li><a href="accommodation.html">ACCOMMODATION</a></li>
+                        </ul>
+                    </nav>
+                </div>
+               
+                <div class="navfill"></div>
+            </div>
+        </section>
+
+
+        <section id="findout">
+            <div class="title">
+                <p>HOME > SALES</p>
+                <h1>Know The Numbers</h1>
+            </div>
+        </section>
+
+
+        <table class="GeneratedTable">
+
+
+        <thead>
+            <tr>
+            <th id="rooms">ROOMS</th>
+            <th id="labels">LABELS</th>
+            <th id="outputs">RESULTS</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+
+
+            <tr>
+            <td class="roomnames" rowspan="2">Deluxe Room</td>
+            <td>Units Sold</td>
+            <td><input class="inputd" value="0" id="delSold"> <button class="calculate" id="calcDel" onclick="calD()">ENTER</button></td>
+            </tr>
+            <tr>
+            <td style="padding: 0.5rem;">Total</td>
+            <td id="delTotal">Php 0.00</td>
+            </tr>
+
+
+            <tr>
+            <td class="roomnames" rowspan="2">Premier Deluxe Room</td>
+            <td>Units Sold</td>
+            <td><input class="inputd" value="0" id="preSold"> <button class="calculate" id="calcPre" onclick="calP()">ENTER</button></td>
+            </tr>
+            <tr>
+            <td>Total</td>
+            <td id="preTotal">Php 0.00</td>
+            </tr>
+
+
+            <tr>
+            <td class="roomnames" rowspan="2">Executive Deluxe Room</td>
+            <td>Units Sold</td>
+            <td><input class="inputd" value="0" id="exeSold"> <button class="calculate" id="calcExe" onclick="calX()">ENTER</button></td>
+            </tr>
+            <tr>
+            <td>Total</td>
+            <td id="exeTotal">Php 0.00</td>
+            </tr>
+
+
+            <tr>
+            <td class="roomnames" rowspan="2">Superior Family Room</td>
+            <td>Units Sold</td>
+            <td><input class="inputd" value="0" id="supSold"> <button class="calculate" id="calcSup" onclick="calS()">ENTER</button></td>
+            </tr>
+            <tr>
+            <td>Total</td>
+            <td id="supTotal">Php 0.00</td>
+            </tr>
+
+
+            <tr>
+            <td class="roomnames" rowspan="2">Deluxe Family Room</td>
+            <td>Units Sold</td>
+            <td><input class="inputd" value="0" id="famSold"> <button class="calculate" id="calcFam" onclick="calF()">ENTER</button></td>
+            </tr>
+            <tr>
+            <td>Total</td>
+            <td id="famTotal">Php 0.00</td>
+            </tr>
+
+
+            <tr>
+            <td class="roomnames" rowspan="2">Sunset Suite</td>
+            <td>Units Sold</td>
+            <td><input class="inputd" value="0" id="sunSold"> <button class="calculate" id="calcSun" onclick="calU()">ENTER</button></td>
+            </tr>
+            <tr>
+            <td>Total</td>
+            <td id="sunTotal">Php 0.00</td>
+            </tr>
+
+
+            <tr>
+            <td class="roomnames" rowspan="2">Seaview Suite</td>
+            <td>Units Sold</td>
+            <td><input class="inputd" value="0" id="seaSold"> <button class="calculate" id="calcSea" onclick="calE()">ENTER</button></td>
+            </tr>
+            <tr>
+            <td>Total</td>
+            <td id="seaTotal">Php 0.00</td>
+            </tr>
+
+
+            <tr>
+            <td class="roomnames" rowspan="2">Casa Familia Suite</td>
+            <td>Units Sold</td>
+            <td><input class="inputd" value="0" id="casSold"> <button class="calculate" id="calcCas" onclick="calC()">ENTER</button></td>
+            </tr>
+            <tr>
+            <td>Total</td>
+            <td id="casTotal">Php 0.00</td>
+            </tr>
+
+
+            <tr>
+            <td class="roomnames" rowspan="2">Barkada Suite</td>
+            <td>Units Sold</td>
+            <td><input class="inputd" value="0" id="barSold"> <button class="calculate" id="calcBar" onclick="calB()">ENTER</button></td>
+            </tr>
+            <tr>
+            <td>Total</td>
+            <td id="barTotal">Php 0.00</td>
+            </tr>
+
+
+        </tbody>
+
+
+        </table>
+
+
+        <script src="/JAVASCRIPT/table.js"></script>
+
+        <footer>
+            <div class="footer">
+            <div class="row">
+            <a href="https://www.facebook.com/ProvinceOfPangasinanOfficial/"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/provinceofpangasinan/?hl=en"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/pangasinan?lang=en"><i class="fa fa-twitter"></i></a>
+            </div>
+            
+            <div class="row">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="accommodation.html">Accommodation</a></li>
+                <li><a href="table.html">Projected Sales</a></li>
+            </ul>
+            </div>
+            
+            <div class="row">
+            SEEPANGASINAN Copyright © 2023 All Rights Reserved - FOR SCHOOL PROJECT PURPOSES ONLY 
+            </div>
+            </div>
+          </footer>
+
+
+    </body>
+   
+   
+
